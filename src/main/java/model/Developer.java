@@ -1,15 +1,15 @@
-package corejava.jdk8;
+package model;
 
 import java.math.BigDecimal;
 
 public class Developer {
 	
-	String name;
-	BigDecimal salary;
-	Integer  age;
+	public String name;
+	public BigDecimal salary;
+	public Integer  age;
 	
 	
-	Developer(String name,BigDecimal salary, Integer age){
+	public Developer(String name,BigDecimal salary, Integer age){
 		this.name=name;
 		this.salary=salary;
 		this.age=age;

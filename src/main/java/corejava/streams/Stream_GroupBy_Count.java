@@ -16,7 +16,7 @@ public class Stream_GroupBy_Count {
 		Map<String, Long> result = items.stream()
 				.collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
-
+		items.stream().collect(Collectors.toList());
 
 		Map<String, Long> finalMap = new LinkedHashMap<>();
 

@@ -1,5 +1,7 @@
 package corejava.jdk8;
 
+import model.Developer;
+
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;

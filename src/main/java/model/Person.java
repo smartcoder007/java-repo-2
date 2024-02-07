@@ -1,4 +1,4 @@
-package corejava.model;
+package model;
 
 public class Person {
 

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import corejava.model.Person;
+import model.Person;
 
 public class Stream_Filter_Map {
 
